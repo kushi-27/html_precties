@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+@media (max-width:1400px) {
+    .container {
+        background-color: rgb(72, 180, 216);
+        width: 960px;
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        background-color: rgb(144, 144, 223);
+        width: 960px;
+    }
+}
+@media (max-width:992px) {
+    .container {
+        background-color: rgb(33, 33, 74);
+        width: 960px;
+    }
+}
+@media (max-width:768px) {
+    .container {
+        background-color: rgb(60, 60, 230);
+        width: 960px;
+    }
+}
+@media (max-width:576px) {
+    .container {
+        background-color: rgb(141, 141, 141);
+        width: 960px;
+    }
+}
