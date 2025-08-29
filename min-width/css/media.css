@@ -1,0 +1,41 @@
+@media (min-width:575px){
+ 
+    .container{
+        background-color: rgb(183, 171, 117);
+        width:100%;
+    }
+}
+@media (min-width:576px) {
+    .container {
+        background-color: rgb(118, 72, 72);
+        width: 960px;
+    }
+}
+@media (min-width:768px) {
+    .container {
+        background-color: rgb(225, 129, 234);
+        min-width: 960px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        background-color: rgb(234, 178, 57);
+        min-width: 960px;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .container {
+        background-color: rgb(134, 200, 145);
+        min-width: 960px;
+    }
+}
+
+@media (min-width:1400px) {
+    .container {
+        background-color: rgb(142, 62, 99);
+        min-width: 960px;
+    }
+}
